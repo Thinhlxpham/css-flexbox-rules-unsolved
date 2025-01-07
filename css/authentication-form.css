@@ -12,6 +12,9 @@ body {
 
 .content {
   padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h2 {
@@ -27,6 +30,10 @@ p {
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .subtext {
@@ -37,6 +44,13 @@ form {
 #sign-in,
 #sign-up {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#sign-up {
+  display: flex;
+  align-items: start;
+  flex-direction: row;
 }
 
 a {

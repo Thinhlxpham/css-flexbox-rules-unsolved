@@ -36,17 +36,17 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] This Assignment is NOT tested. You can use all the desired creativity!
-- [ ] All the tasks of the "Specific requirements" section MUST be solved
-- [ ] The project's file/folder structure should NOT be edited!
-- [ ] The ecommerce-page.html file should NOT be edited!
-- [ ] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "w3c web validator" VSCode extension or the "Online w3c Markup Validation Service")
-- [ ] The code MUST be formatted with Prettier.
-- [ ] Push the changes to the Github repo, when finished.
-- [ ] Submit a .txt file with the Github repo url.
+- [x] Fork the project to your github account
+- [x] Clone the project to your computer
+- [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
+- [x] This Assignment is NOT tested. You can use all the desired creativity!
+- [x] All the tasks of the "Specific requirements" section MUST be solved
+- [x] The project's file/folder structure should NOT be edited!
+- [x] The ecommerce-page.html file should NOT be edited!
+- [x] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "w3c web validator" VSCode extension or the "Online w3c Markup Validation Service")
+- [x] The code MUST be formatted with Prettier.
+- [x] Push the changes to the Github repo, when finished.
+- [x] Submit a .txt file with the Github repo url.
 
 You'll discover certain styles existing in the initial state of the CSS files. They're present for a purpose, but it's your call to determine whether you want to utilize them, remove them, or create some.
 
@@ -56,17 +56,17 @@ You'll discover certain styles existing in the initial state of the CSS files. T
 
 Acceptance criteria:
 
-- [ ] The layout should closely resemble the mockup.
-- [ ] Avoid using margin and float CSS rules to define distance/space between elements or their alignment.
-- [ ] Positioning (utilizing the position CSS property) is prohibited.
-- [ ] Edit the following files:
-  - [ ] html: `/pages/authentication-form.html`
-  - [ ] css: `/css/authentication-form.css`
+- [x] The layout should closely resemble the mockup.
+- [x] Avoid using margin and float CSS rules to define distance/space between elements or their alignment.
+- [x] Positioning (utilizing the position CSS property) is prohibited.
+- [x] Edit the following files:
+  - [x] html: `/pages/authentication-form.html`
+  - [x] css: `/css/authentication-form.css`
 
 Create the form HTML elements to imitate the mockup:
 
-- [ ] Wrap each group of a label and input elements with a container representing a row.
-- [ ] Maintain a 6px distance between the label and the input.
+- [x] Wrap each group of a label and input elements with a container representing a row.
+- [x] Maintain a 6px distance between the label and the input.
 - [ ] Keep a 30px distance between each row.
 - [ ] Bolden label text when paired with a text or text-like input field.
 - [ ] Avoid bold formatting for labels paired with checkboxes and radios.
@@ -126,14 +126,14 @@ For the "Sign Up Form"
 
 Acceptance criteria:
 
-- [ ] Edit the following files:
-  - [ ] css: `/css/ecommerce-page.css`
-- [ ] Ensure the layout closely mirrors the mockup.
-- [ ] Refrain from using the margin CSS rule to specify distances between elements.
-- [ ] Positioning is prohibited.
-- [ ] When switching between views, display a different product list view.
-- [ ] The HTML file should remain unchanged; no updates or modifications are allowed.
-- [ ] The permitted list of CSS rules to add to the styles file is as follows:
+- [x] Edit the following files:
+  - [x] css: `/css/ecommerce-page.css`
+- [x] Ensure the layout closely mirrors the mockup.
+- [x] Refrain from using the margin CSS rule to specify distances between elements.
+- [x] Positioning is prohibited.
+- [x] When switching between views, display a different product list view.
+- [x] The HTML file should remain unchanged; no updates or modifications are allowed.
+- [x] The permitted list of CSS rules to add to the styles file is as follows:
   - `border-*`
   - `padding-*`
   - width
