@@ -14,7 +14,7 @@ body {
   padding: 30px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  gap: 30px;
 }
 
 h2 {
@@ -33,7 +33,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 15px;
+  gap: 20px;
 }
 
 .subtext {
@@ -45,21 +45,34 @@ form {
 #sign-up {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 15px;
 }
-#sign-up {
+.form-submit-control {
   display: flex;
-  align-items: start;
-  flex-direction: row;
+  justify-content: center;
 }
 
 a {
   color: #335eea;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 label {
   font-weight: bold;
+}
+.form-group-horizontal-control {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+}
+select {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
 }
 
 input {

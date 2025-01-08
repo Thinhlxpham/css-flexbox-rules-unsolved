@@ -111,7 +111,8 @@ section {
   background-color: #2b2d36;
   padding-top: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 20px;
 }
 
 .category {
@@ -192,6 +193,7 @@ i.fa-th-list {
 .product-description {
   line-height: 24px;
   color: #8d8ba5;
+  height: 150px;
 }
 
 .product-price {
@@ -272,8 +274,12 @@ i.fa-th-list {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  gap: 20px;
 }
-
+span {
+  display: flex;
+  justify-content: flex-start;
+}
 .lines .product {
   padding: 20px;
   display: flex;
@@ -324,25 +330,30 @@ i.fa-th-list {
 .lines-action .product-image-wrapper {
   min-width: 300px;
   height: 200px;
+  display: flex;
+  gap: 15px;
 }
 
 .lines-action .product-data {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .lines-action .product-info {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .lines-action .product-action {
   border-left: 1px solid #8d8ba5;
   padding-left: 30px;
-  min-width: 200px;
+  min-width: 250px;
   display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
 }
